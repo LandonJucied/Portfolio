@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Landon Curtis — Computer Science, IT, networking, server administration, and web development portfolio.">
+<title>Landon Curtis | Technology Portfolio</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="noise"></div>
+<header class="nav">
+  <a class="brand" href="index.html"><span class="brand-mark">LC</span><span>Landon<span class="muted">.dev</span></span></a>
+  <button class="nav-toggle" aria-label="Open navigation">☰</button>
+  <nav class="nav-links">
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="experience.html">Experience</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <button id="themeBtn" class="icon-btn" title="Toggle theme">◐</button>
+    <button id="cmdBtn" class="icon-btn" title="Command palette">⌘K</button>
+  </div>
+</header>
+
+<main>
+<section class="hero shell">
+  <div class="hero-copy reveal">
+    <div class="eyebrow"><span class="pulse"></span> OPEN TO TECHNOLOGY OPPORTUNITIES</div>
+    <h1>Building <span class="gradient-text">technology</span> that works.</h1>
+    <p class="hero-lede">I'm Landon Curtis — a computer science and IT-focused builder working across web development, networking, Windows administration, virtualization, and infrastructure.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="projects.html">Explore my work <span>↗</span></a>
+      <a class="btn ghost" href="contact.html">Let's connect</a>
+    </div>
+    <div class="quick-stats">
+      <div><strong>CS</strong><span>Focus</span></div>
+      <div><strong>IT</strong><span>Infrastructure</span></div>
+      <div><strong>WEB</strong><span>Development</span></div>
+      <div><strong>∞</strong><span>Learning</span></div>
+    </div>
+  </div>
+  <div class="hero-terminal reveal">
+    <div class="terminal-window">
+      <div class="terminal-top"><div><i></i><i></i><i></i></div><span>landon@portfolio:~</span><button id="terminalClear">×</button></div>
+      <div class="terminal-body" id="terminalBody">
+        <div><span class="term-green">landon@portfolio</span>:<span class="term-blue">~</span>$ whoami</div>
+        <div class="term-output">Landon Curtis — technology builder</div>
+        <div><span class="term-green">landon@portfolio</span>:<span class="term-blue">~</span>$ stack</div>
+        <div class="term-output">HTML • CSS • JavaScript • Windows Server • AD • GPO • Proxmox</div>
+        <div><span class="term-green">landon@portfolio</span>:<span class="term-blue">~</span>$ status</div>
+        <div class="term-output"><span class="status-ok">●</span> Learning. Building. Improving.</div>
+        <div class="terminal-input"><span class="term-green">landon@portfolio</span>:<span class="term-blue">~</span>$ <input id="termInput" autocomplete="off" aria-label="Terminal command"></div>
+      </div>
+    </div>
+    <div class="terminal-hint">Try <kbd>help</kbd>, <kbd>projects</kbd>, <kbd>about</kbd>, or <kbd>clear</kbd></div>
+  </div>
+</section>
+
+<section class="ticker"><div class="ticker-track"><span>WEB DEVELOPMENT</span><b>✦</b><span>NETWORKING</span><b>✦</b><span>SERVER ADMINISTRATION</span><b>✦</b><span>CYBERSECURITY</span><b>✦</b><span>UI/UX</span><b>✦</b><span>WEB DEVELOPMENT</span><b>✦</b><span>NETWORKING</span><b>✦</b></div></section>
+
+<section class="section shell">
+  <div class="section-head reveal"><div><div class="eyebrow">01 / CAPABILITIES</div><h2>A portfolio with <span class="gradient-text">range.</span></h2></div><a class="text-link" href="about.html">More about me →</a></div>
+  <div class="cap-grid">
+    <article class="cap-card reveal"><span class="cap-icon">⌘</span><h3>Web Development</h3><p>Responsive, accessible interfaces with structured HTML, modern CSS, and interactive JavaScript.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div></article>
+    <article class="cap-card reveal"><span class="cap-icon">⌁</span><h3>Infrastructure</h3><p>Hands-on work with virtual machines, Windows Server, Active Directory, DNS, GPOs, and network environments.</p><div class="tags"><span>AD</span><span>GPO</span><span>DNS</span></div></article>
+    <article class="cap-card reveal"><span class="cap-icon">◈</span><h3>Systems & Support</h3><p>Asset tracking, help-desk workflows, troubleshooting, domain management, and practical endpoint administration.</p><div class="tags"><span>Snipe-IT</span><span>osTicket</span><span>Proxmox</span></div></article>
+    <article class="cap-card reveal"><span class="cap-icon">↯</span><h3>Problem Solving</h3><p>Breaking complex technical problems into repeatable steps and documenting solutions that others can use.</p><div class="tags"><span>Debugging</span><span>Documentation</span></div></article>
+  </div>
+</section>
+
+<section class="section shell showcase">
+  <div class="section-head reveal"><div><div class="eyebrow">02 / FEATURED CASE STUDY</div><h2>Community Resource <span class="gradient-text">Hub.</span></h2></div><a class="text-link" href="projects.html">All projects →</a></div>
+  <div class="case-grid reveal">
+    <div class="case-visual"><div class="fake-browser"><div class="browser-bar"><span></span><span></span><span></span><label>irvine-community.local</label></div><div class="fake-site"><div class="fake-nav">COMMUNITY <b>RESOURCE HUB</b></div><div class="fake-hero"><small>IRVINE • ESTILL COUNTY</small><h3>Find what your community needs.</h3><div class="fake-lines"><i></i><i></i></div></div><div class="fake-cards"><i></i><i></i><i></i></div></div></div></div>
+    <div class="case-copy"><div class="case-number">CASE / 001</div><h3>A local-first resource directory designed around clarity.</h3><p>A full web project focused on connecting people with community resources, events, organizations, and submission workflows. The project includes responsive layouts, search/filtering, accessibility-focused pages, references, and structured content.</p><div class="case-points"><span>✓ Responsive interface</span><span>✓ Search & filtering</span><span>✓ Events & resources</span><span>✓ Accessibility focus</span></div><a class="btn primary" href="projects.html#resource-hub">View case study</a></div>
+  </div>
+</section>
+
+<section class="section shell">
+  <div class="metrics reveal">
+    <div><strong data-count="6">0</strong><span>Core technology areas</span></div>
+    <div><strong data-count="8">0</strong><span>Featured project concepts</span></div>
+    <div><strong data-count="100">0%</strong><span>Hands-on mindset</span></div>
+    <div><strong>∞</strong><span>Things left to learn</span></div>
+  </div>
+</section>
+
+<section class="section shell cta reveal">
+  <div><div class="eyebrow">03 / NEXT STEP</div><h2>Have a technical problem<br><span class="gradient-text">worth solving?</span></h2></div>
+  <a class="btn primary big" href="contact.html">Start a conversation ↗</a>
+</section>
+</main>
+<footer class="footer shell"><div><b>Landon<span class="muted">.dev</span></b><span>Technology portfolio</span></div><span>© <span id="year"></span> Landon Curtis</span></footer>
+<div id="palette" class="palette hidden"><div class="palette-box"><input id="paletteInput" placeholder="Search pages or commands..." autocomplete="off"><div id="paletteResults"></div></div></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
